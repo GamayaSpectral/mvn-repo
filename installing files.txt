@@ -1,0 +1,21 @@
+1) Create a GitHub repository
+2) Clone the GitHub repository to your computer.
+3) Install JAR(s)
+
+Archetype: mvn install:install-file -DgroupId=[group-id] -DartifactId=[artifact-id] -Dversion=[version] -Dpackaging=[packaging-format] -Dfile=[path-to-file] -DlocalRepositoryPath=[path-to-git-repo]
+ 
+JOGL:
+
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-linux-amd64 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all-natives-linux-amd64.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-linux-i586 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all-natives-linux-i586.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-macosx-universal -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all-natives-macosx-universal.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-windows-amd64 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all-natives-windows-amd64.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-windows-i586 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=jogl-all-natives-windows-i586.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-linux-amd64 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-linux-amd64.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-linux-i586 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-linux-i586.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-macosx-universal -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-macosx-universal.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-windows-amd64 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-windows-amd64.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-windows-i586 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-windows-i586.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\

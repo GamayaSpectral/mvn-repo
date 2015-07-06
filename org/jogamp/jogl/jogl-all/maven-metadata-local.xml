@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jogamp.jogl</groupId>
+  <artifactId>jogl-all</artifactId>
+  <versioning>
+    <release>2.1.5-nasa</release>
+    <versions>
+      <version>2.1.5-nasa</version>
+    </versions>
+    <lastUpdated>20150702150736</lastUpdated>
+  </versioning>
+</metadata>
