@@ -19,3 +19,7 @@ mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-nativ
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-macosx-universal -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-macosx-universal.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-windows-amd64 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-windows-amd64.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-natives-windows-i586 -Dversion=2.1.5-nasa -Dpackaging=jar -Dfile=gluegen-rt-natives-windows-i586.jar -DlocalRepositoryPath=D:\Development\GitHub\mvn-repo\
+
+OpenCV
+
+mvn install:install-file -DgroupId=org.opencv -DartifactId=opencv-native -Dversion=3.2.0 -Dpackaging=jar -Dfile=opencv-320-native.jar -DlocalRepositoryPath=C:\Gamaya\Github\mvn-repo
