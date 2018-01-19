@@ -23,3 +23,22 @@ mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=gluegen-rt-nativ
 OpenCV
 
 mvn install:install-file -DgroupId=org.opencv -DartifactId=opencv-native -Dversion=3.2.0 -Dpackaging=jar -Dfile=opencv-320-native.jar -DlocalRepositoryPath=C:\Gamaya\Github\mvn-repo
+
+#########################
+For worldwind :
+
+1) install Ant : http://ant.apache.org/manual/install.html#getBinary
+
+2) compile worldwind jars with ant :
+>> cd C:\Users\Geoffrey\Desktop\WorldWindJava
+>> ant build
+You should have "worldwind.jar" and "worldwindx.jar" at the end
+
+3) Install worldwind and worldwindx in the local repo :
+>> mvn install:install-file -DgroupId="gov.nasa" -DartifactId="worldwind" -Dversion="2.1.1" -Dpackaging="jar" -Dfile="C:\Users\Geoffrey\Desktop\WorldWindJava\worldwind.jar" -DlocalRepositoryPath="C:\Users\Geoffrey\Desktop\mvn-repo"
+>> mvn install:install-file -DgroupId="gov.nasa" -DartifactId="worldwindx" -Dversion="2.1.1" -Dpackaging="jar" -Dfile="C:\Users\Geoffrey\Desktop\WorldWindJava\worldwindx.jar" -DlocalRepositoryPath="C:\Users\Geoffrey\Desktop\mvn-repo"
+
+4) In sprocket 
+in "sprocket.parent" add the new local version :
+<worldwind.version>2.1.1</worldwind.version>
+rebuild the maven project
