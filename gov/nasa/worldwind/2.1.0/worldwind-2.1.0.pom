@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>gov.nasa</groupId>
   <artifactId>worldwind</artifactId>
-  <version>2.1.1</version>
-  <description>POM was created from install:install-file</description>
+  <version>2.1.0</version>
+  <description>Latest worldwind 2018</description>
 </project>
